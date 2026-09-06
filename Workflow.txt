@@ -1,0 +1,111 @@
+Workflow: 
+
+
+1) Institution Onboarding:
+
+First the government institutions are registered with identity, location, type, and contact details.
+
+2) Surplus Identification: 
+
+The validated authority will then determine if an asset is no longer required or eligible for transfer. Under GFR rule 217, an item/asset may be declared surplus, obsolete or unserviceable when it is of no use to the Ministry/Department, with reasons given by the authority. 
+
+3) Asset Registration: 
+
+The asset is then stored into our backend with its name, location, quantity, quality, estimated value and institutional owner of that asset. 
+
+4) Verification and Authorization:
+
+The institute of that asset can then verify its conditions, quality, quantity, eligibility. Our platform only gives out recommendations, the authority is still responsible for the decision. So the authority should be advised to verify and authenticate before moving forward. 
+
+5) Requirement Creation:
+
+A receiving institution specifies what it needs, quantity, acceptable condition, location and where applicable, budget or urgency. This will create a demand record. It should be noted the respected authority verify its requirements before making the demand record. 
+
+6) Candidate discovery and Intelligent matching:
+
+The intelligence layer then will account for both the verified datasets from both sides. It can compare asset/category, condition, quantity, and location with the requirements. And will ultimately give out a recommendation. 
+
+7) Recommendation:
+
+This recommendation becomes an allocation recommendation given by the intelligence layer by comparing verified facts. 
+
+8) Official review and approval/rejection:
+
+The respected authority of the receiving institute goes over the recommendation. The backend checks identity, institution ownership, allocation state and quantity. The respected authority will then be given options for approval and rejection of that recommendation. Rejection will leave that asset available. 
+
+9) Inventory Update:
+
+On approval, the allocated quantity will be the removed from the supplier institute available quantity, preventing double allocation. The rest of the inventory remains untouched. 
+
+10) Pickup Scheduling: 
+
+After approval, the physical transfer begins. A pickup event records when and where the collection occurs and who is responsible by providing timestamps, locations and contact details of that responsible individual. 
+
+11) Dispatch:
+
+When the asset leaves the supplier, the allocation becomes dispatched. Administrative approval and physical movement are kept distinct.
+
+12) In-transit Tracking:
+
+The receiving institute will see that the asset is physically moving with an estimated fulfillment/arrival window.
+
+13) Delivery:
+
+The receiving institution will be notified that the asset has arrived. Delivery records the allocation, quantity and timestamp of the delivery.
+
+14) Receipt confirmation:
+
+An authorized receiving user confirms that the expected quantity and condition were received, and the receiving institute will be given a receipt for the delivery for further logging. 
+
+15) Audit trail and closure:
+
+Each material action is logged with the responsible user, action, asset/allocation reference and details. Creating an entire history or sequence of events with timestamps in each step through receipt
+
+
+
+
+Real - world Systems:
+
+
+1) SAMPATI (CGA, Ministry of Finance):
+
+SAMPATI focuses primarily on accounting, tracking and compliance. 
+
+Our workflow is an active, closed-loop asset reallocation and dynamic supply-demand system. We introduce end-to-end logistics and an intelligence layer for matching. 
+
+2) GeM forward auction:
+
+GeM focuses on revenue maximization through competitive bidding. 
+
+We introduce resource optimization and waste reduction within the government ecosystem through supply and demand. 
+
+3) Madhya Pradesh Public Asset's Management:
+
+MP PAMD focuses primarily on monetization, leasing and commercial development of high-value macro assets like land parcels, vacant government buildings and public sector undertakings
+
+We introduce a micro-level operation for office inventory and reallocation like computers or furniture etc. 
+
+4) CAG Audit Framework:
+
+CAG does not manage or move or allocate assets, it only evaluates whether the processes compiled with government rules after the financial year was closed. 
+
+We introduce a live, real-time platform for inventory tracking and allocation of assets. 
+
+
+
+Companies: 
+
+1) Rheaply: 
+
+Rheaply is a commercial B2B Marketplace platform built for sustainability and corporate waste division. Rheaply operates like an internal Amazon or "re-commerce" store. 
+
+We introduce multi-layer logistics and intelligent matching for government institutes. We are an institutional ERP for high-security inventory. 
+
+2) Globechain:
+
+Almost like Rheaply Globechain is an ESG-driven B2B marketplace built to donate corporate waste to charities and small businesses. They operate as a "free-cycle platform for corporates"
+
+We introduce an efficient government budgeting to protect public money and solve budgetary leakage problems. 
+
+
+
